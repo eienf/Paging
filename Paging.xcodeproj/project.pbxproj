@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BA52A5918B9DB3400E05802 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA52A5818B9DB3400E05802 /* UIKit.framework */; };
+		7BA52A5B18B9DB3400E05802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA52A5A18B9DB3400E05802 /* Foundation.framework */; };
+		7BA52A5D18B9DB3400E05802 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA52A5C18B9DB3400E05802 /* CoreGraphics.framework */; };
+		7BA52A6318B9DB3400E05802 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BA52A6118B9DB3400E05802 /* InfoPlist.strings */; };
+		7BA52A6518B9DB3400E05802 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA52A6418B9DB3400E05802 /* main.m */; };
+		7BA52A6918B9DB3400E05802 /* PGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA52A6818B9DB3400E05802 /* PGAppDelegate.m */; };
+		7BA52A6B18B9DB3500E05802 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA52A6A18B9DB3500E05802 /* Default.png */; };
+		7BA52A6D18B9DB3500E05802 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA52A6C18B9DB3500E05802 /* Default@2x.png */; };
+		7BA52A6F18B9DB3500E05802 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA52A6E18B9DB3500E05802 /* Default-568h@2x.png */; };
+		7BA52A7218B9DB3500E05802 /* PGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA52A7118B9DB3500E05802 /* PGViewController.m */; };
+		7BA52A7518B9DB3500E05802 /* PGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BA52A7318B9DB3500E05802 /* PGViewController.xib */; };
+		7BA52A7E18B9E0BE00E05802 /* PGPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA52A7C18B9E0BE00E05802 /* PGPageViewController.m */; };
+		7BA52A7F18B9E0BE00E05802 /* PGPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BA52A7D18B9E0BE00E05802 /* PGPageViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BA52A5518B9DB3400E05802 /* Paging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA52A5818B9DB3400E05802 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7BA52A5A18B9DB3400E05802 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7BA52A5C18B9DB3400E05802 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7BA52A6018B9DB3400E05802 /* Paging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Paging-Info.plist"; sourceTree = "<group>"; };
+		7BA52A6218B9DB3400E05802 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BA52A6418B9DB3400E05802 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BA52A6618B9DB3400E05802 /* Paging-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Paging-Prefix.pch"; sourceTree = "<group>"; };
+		7BA52A6718B9DB3400E05802 /* PGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGAppDelegate.h; sourceTree = "<group>"; };
+		7BA52A6818B9DB3400E05802 /* PGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGAppDelegate.m; sourceTree = "<group>"; };
+		7BA52A6A18B9DB3500E05802 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7BA52A6C18B9DB3500E05802 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7BA52A6E18B9DB3500E05802 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7BA52A7018B9DB3500E05802 /* PGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGViewController.h; sourceTree = "<group>"; };
+		7BA52A7118B9DB3500E05802 /* PGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGViewController.m; sourceTree = "<group>"; };
+		7BA52A7418B9DB3500E05802 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PGViewController.xib; sourceTree = "<group>"; };
+		7BA52A7B18B9E0BE00E05802 /* PGPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGPageViewController.h; sourceTree = "<group>"; };
+		7BA52A7C18B9E0BE00E05802 /* PGPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGPageViewController.m; sourceTree = "<group>"; };
+		7BA52A7D18B9E0BE00E05802 /* PGPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PGPageViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BA52A5218B9DB3400E05802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA52A5918B9DB3400E05802 /* UIKit.framework in Frameworks */,
+				7BA52A5B18B9DB3400E05802 /* Foundation.framework in Frameworks */,
+				7BA52A5D18B9DB3400E05802 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BA52A4C18B9DB3400E05802 = {
+			isa = PBXGroup;
+			children = (
+				7BA52A5E18B9DB3400E05802 /* Paging */,
+				7BA52A5718B9DB3400E05802 /* Frameworks */,
+				7BA52A5618B9DB3400E05802 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BA52A5618B9DB3400E05802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BA52A5518B9DB3400E05802 /* Paging.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BA52A5718B9DB3400E05802 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BA52A5818B9DB3400E05802 /* UIKit.framework */,
+				7BA52A5A18B9DB3400E05802 /* Foundation.framework */,
+				7BA52A5C18B9DB3400E05802 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BA52A5E18B9DB3400E05802 /* Paging */ = {
+			isa = PBXGroup;
+			children = (
+				7BA52A6718B9DB3400E05802 /* PGAppDelegate.h */,
+				7BA52A6818B9DB3400E05802 /* PGAppDelegate.m */,
+				7BA52A7018B9DB3500E05802 /* PGViewController.h */,
+				7BA52A7118B9DB3500E05802 /* PGViewController.m */,
+				7BA52A7318B9DB3500E05802 /* PGViewController.xib */,
+				7BA52A5F18B9DB3400E05802 /* Supporting Files */,
+				7BA52A7B18B9E0BE00E05802 /* PGPageViewController.h */,
+				7BA52A7C18B9E0BE00E05802 /* PGPageViewController.m */,
+				7BA52A7D18B9E0BE00E05802 /* PGPageViewController.xib */,
+			);
+			path = Paging;
+			sourceTree = "<group>";
+		};
+		7BA52A5F18B9DB3400E05802 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BA52A6018B9DB3400E05802 /* Paging-Info.plist */,
+				7BA52A6118B9DB3400E05802 /* InfoPlist.strings */,
+				7BA52A6418B9DB3400E05802 /* main.m */,
+				7BA52A6618B9DB3400E05802 /* Paging-Prefix.pch */,
+				7BA52A6A18B9DB3500E05802 /* Default.png */,
+				7BA52A6C18B9DB3500E05802 /* Default@2x.png */,
+				7BA52A6E18B9DB3500E05802 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BA52A5418B9DB3400E05802 /* Paging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA52A7818B9DB3500E05802 /* Build configuration list for PBXNativeTarget "Paging" */;
+			buildPhases = (
+				7BA52A5118B9DB3400E05802 /* Sources */,
+				7BA52A5218B9DB3400E05802 /* Frameworks */,
+				7BA52A5318B9DB3400E05802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paging;
+			productName = Paging;
+			productReference = 7BA52A5518B9DB3400E05802 /* Paging.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BA52A4D18B9DB3400E05802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Eien Factory Ltd.";
+			};
+			buildConfigurationList = 7BA52A5018B9DB3400E05802 /* Build configuration list for PBXProject "Paging" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BA52A4C18B9DB3400E05802;
+			productRefGroup = 7BA52A5618B9DB3400E05802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BA52A5418B9DB3400E05802 /* Paging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BA52A5318B9DB3400E05802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA52A6318B9DB3400E05802 /* InfoPlist.strings in Resources */,
+				7BA52A6B18B9DB3500E05802 /* Default.png in Resources */,
+				7BA52A6D18B9DB3500E05802 /* Default@2x.png in Resources */,
+				7BA52A6F18B9DB3500E05802 /* Default-568h@2x.png in Resources */,
+				7BA52A7518B9DB3500E05802 /* PGViewController.xib in Resources */,
+				7BA52A7F18B9E0BE00E05802 /* PGPageViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BA52A5118B9DB3400E05802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA52A6518B9DB3400E05802 /* main.m in Sources */,
+				7BA52A6918B9DB3400E05802 /* PGAppDelegate.m in Sources */,
+				7BA52A7218B9DB3500E05802 /* PGViewController.m in Sources */,
+				7BA52A7E18B9E0BE00E05802 /* PGPageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BA52A6118B9DB3400E05802 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BA52A6218B9DB3400E05802 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7BA52A7318B9DB3500E05802 /* PGViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BA52A7418B9DB3500E05802 /* en */,
+			);
+			name = PGViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BA52A7618B9DB3500E05802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BA52A7718B9DB3500E05802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BA52A7918B9DB3500E05802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paging/Paging-Prefix.pch";
+				INFOPLIST_FILE = "Paging/Paging-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7BA52A7A18B9DB3500E05802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paging/Paging-Prefix.pch";
+				INFOPLIST_FILE = "Paging/Paging-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BA52A5018B9DB3400E05802 /* Build configuration list for PBXProject "Paging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA52A7618B9DB3500E05802 /* Debug */,
+				7BA52A7718B9DB3500E05802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA52A7818B9DB3500E05802 /* Build configuration list for PBXNativeTarget "Paging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA52A7918B9DB3500E05802 /* Debug */,
+				7BA52A7A18B9DB3500E05802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BA52A4D18B9DB3400E05802 /* Project object */;
+}
