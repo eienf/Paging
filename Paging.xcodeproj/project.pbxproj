@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B1F1E5C18BA5B020097C27B /* README in Resources */ = {isa = PBXBuildFile; fileRef = 7B1F1E5B18BA5B020097C27B /* README */; };
 		7BA52A5918B9DB3400E05802 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA52A5818B9DB3400E05802 /* UIKit.framework */; };
 		7BA52A5B18B9DB3400E05802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA52A5A18B9DB3400E05802 /* Foundation.framework */; };
 		7BA52A5D18B9DB3400E05802 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA52A5C18B9DB3400E05802 /* CoreGraphics.framework */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B1F1E5918BA58790097C27B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7B1F1E5B18BA5B020097C27B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		7BA52A5518B9DB3400E05802 /* Paging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA52A5818B9DB3400E05802 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7BA52A5A18B9DB3400E05802 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,12 +61,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B1F1E5818BA58500097C27B /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				7B1F1E5918BA58790097C27B /* LICENSE */,
+				7B1F1E5B18BA5B020097C27B /* README */,
+			);
+			name = Document;
+			sourceTree = "<group>";
+		};
 		7BA52A4C18B9DB3400E05802 = {
 			isa = PBXGroup;
 			children = (
 				7BA52A5E18B9DB3400E05802 /* Paging */,
 				7BA52A5718B9DB3400E05802 /* Frameworks */,
 				7BA52A5618B9DB3400E05802 /* Products */,
+				7B1F1E5818BA58500097C27B /* Document */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,6 +186,7 @@
 				7BA52A6F18B9DB3500E05802 /* Default-568h@2x.png in Resources */,
 				7BA52A7518B9DB3500E05802 /* PGViewController.xib in Resources */,
 				7BA52A7F18B9E0BE00E05802 /* PGPageViewController.xib in Resources */,
+				7B1F1E5C18BA5B020097C27B /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

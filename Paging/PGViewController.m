@@ -37,20 +37,30 @@ const NSInteger kPageMax = 3;
     [self scrollViewDidScroll:self.scrollView];
 }
 
-- (void)viewDidAppear:(BOOL)animated
+- (void)adjustSubviews
 {
-    [super viewDidAppear:animated];
     CGRect aRect = self.scrollView.frame;
     int i = 0;
     for (UIViewController *viewController in self.childViewControllers) {
         viewController.view.frame = CGRectMake(aRect.size.width*(i++),
-                                                   0,
-                                                   aRect.size.width,
-                                                   aRect.size.height);
+                                               0,
+                                               aRect.size.width,
+                                               aRect.size.height);
     }
     self.scrollView.contentSize = CGSizeMake(aRect.size.width * kPageMax,
                                              aRect.size.height);
-    [self.scrollView setNeedsLayout];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [self adjustSubviews];
+}
+
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
+{
+    [super didRotateFromInterfaceOrientation:fromInterfaceOrientation];
+    [self adjustSubviews];
 }
 
 - (void)didReceiveMemoryWarning
